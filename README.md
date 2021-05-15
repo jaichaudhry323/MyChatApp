@@ -46,4 +46,4 @@ Chat App Using Firebase
 
 
 
-For video to smaall gif convertion: https://www.img2go.com/convert-video-to-gif
+For video to small gif convertion: https://www.img2go.com/convert-video-to-gif
