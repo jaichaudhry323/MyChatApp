@@ -1,5 +1,9 @@
 # MyChatApp
 Chat App Using Firebase
+
+
+![Working](./ChatApp.gif)
+
 <p>
   
 <img src="https://user-images.githubusercontent.com/42890838/101646143-2742f080-3a5d-11eb-8e55-3d1a1bd470e1.jpeg" height ="400px" width="200px">
@@ -40,3 +44,6 @@ Chat App Using Firebase
 
 </p>
 
+
+
+For video to smaall gif convertion: https://www.img2go.com/convert-video-to-gif
