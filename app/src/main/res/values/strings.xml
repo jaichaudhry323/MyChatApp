@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyChatApp</string>
+    <string name="logout">LOGOUT</string>
+</resources>

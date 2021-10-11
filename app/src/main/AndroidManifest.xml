@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.o7planning.mychatapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Chat App System"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:stopWithTask="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".RegisterActivity"
+        android:parentActivityName=".StartActivity"/>
+
+    <activity android:name=".LoginActivity"
+        android:parentActivityName=".StartActivity"/>
+
+    <activity android:name=".MainActivity"
+        android:parentActivityName=".LoginActivity"/>
+
+        <activity android:name=".ResetActivity"
+            android:parentActivityName=".LoginActivity"/>
+
+        <activity android:name=".MessageActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ADMIN.MaintainChats.SelectChatsActivity" />
+
+        <activity android:name=".ADMIN.MaintainChats.ViewChatsActivity" />
+
+        <activity android:name=".ADMIN.MaintainUsers.AddUserActivity" />
+
+        <activity android:name=".ADMIN.MaintainUsers.UpdateUserActivity" />
+
+        <activity android:name=".ADMIN.MaintainUsers.DeleteUserActivity" />
+
+        <activity android:name=".ADMIN.MaintainChatsActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ADMIN.MaintainUsersActivity"
+            android:parentActivityName=".MainActivity"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!--        -->
+<!--        <Button-->
+<!--            android:id="@+id/maintain_users_button"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_marginTop="333dp"-->
+<!--            android:layout_marginBottom="350dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:text="Maintain Users"-->
+<!--            android:textColor="#FFFFFF" />-->
+
+        <Button
+            android:id="@+id/maintain_users_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="327dp"
+            android:background="@color/colorPrimary"
+            android:text="Maintain Users"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/maintain_chats_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="196dp"
+            android:background="@color/colorPrimary"
+            android:text="View Chats"
+            android:textColor="#FFFFFF" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/maintain_users_button"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginStart="144dp"-->
+        <!--            android:layout_marginEnd="125dp"-->
+        <!--            android:layout_marginBottom="282dp"-->
+        <!--            android:text="Maintain Users" />-->
+
+        <!--        <Button-->
+        <!--            android:id="@+id/maintain_chats_button"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:layout_marginStart="138dp"-->
+        <!--            android:layout_marginEnd="128dp"-->
+        <!--            android:layout_marginBottom="163dp"-->
+        <!--            android:text="Maintain Chats" />-->
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
